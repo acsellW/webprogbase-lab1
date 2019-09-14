@@ -9,44 +9,13 @@ header {
     background: #2c3e50;
     color: #fff;
 }
- 
-header::after {
-    content: '';
-    display: inline-block;
-    width: 100%;
-}
- 
-header > div,
-header > div::before,
-header nav,
-header > div h1 {
-    display: inline-block;
-    vertical-align: middle;
-    text-align: left;
-}
- 
-header > div {
-    height: 100%;
-}
- 
-header > div::before {
-    content: '';
-    height: 100%;
-}
+
  
 header > div h1 {
     font-size: 3em;
     font-style: italic;
 }
  
-header nav a {
-    padding: 0 0.6em;
-    white-space: nowrap;
-}
- 
-header nav a:last-child {
-    padding-right: 0;
-}
  
 @media screen and (max-width: 720px){
      
