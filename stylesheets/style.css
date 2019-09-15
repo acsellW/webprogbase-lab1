@@ -13,7 +13,7 @@ A {
 }
 
 A:visited {
-    color: #cecece;
+    color: #842ace;
     text-decoration: none;
 }
    
@@ -80,6 +80,20 @@ header > div h1 {
         font-size: large;
     }
     
+    .dishpic img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        margin-bottom: 1%;
+        width: 20%;
+    }
+    
+    .dish {
+        background-image: url(../images/footer.png);
+        border: 2px solid #cdcdcd;
+        text-align: center;
+    }
 
 .par {
     color: blue;
